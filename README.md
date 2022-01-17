@@ -29,3 +29,31 @@ After building the application, you can also run it from the Java CLI:
 ```bash
 java -jar build/libs/catalog-service-0.0.1-SNAPSHOT.jar
 ```
+## Testing Rest APIs
+| APIs      | Description |  Request Body |  Response Body |
+| ---- | --- |  --- |  --- |
+| GET     http://localhost:9001/books  | Get all Books  | None | Array of Books
+| POST    http://localhost:9001/books  | Add a new Book  | Book | Book
+| PUT     http://localhost:9001/books/{isbn}  | Update a Book  | Book | None
+| DELETE  http://localhost:9001/books/{isbn}  | Delete a Book  | None | None
+
+### Get Book List
+<img src="images/get-books.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin: 20px;" />
+
+<img src="images/post-book1.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin: 20px;" />
+<img src="images/post-book2.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin: 20px;" />
+<img src="images/post-book3.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin: 20px;" />
+<img src="images/put-book.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin: 20px;" />
+<img src="images/delete-book.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin: 20px;" />
